@@ -1,0 +1,38 @@
+
+a{
+    text-decoration: none;
+}
+.nav-search{
+    max-height: 300px;
+     overflow-y: scroll;
+     overflow: hidden; 
+ }
+
+ a:link, a:visited {
+    color: blue;
+  }
+
+
+  .text-nav{
+   padding:30px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .h4-nav-content{
+    padding-top:30px;
+    padding-left: 30px;
+  }
+
+  .main-navdiv{
+    color: white;
+  }
+
+  .active-nav{
+    transition: 0.3s;
+    color: black !important
+  }
+.active-nav:hover{
+    background-color: #06264D !important;
+    color: white !important
+}
